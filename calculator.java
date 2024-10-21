@@ -15,7 +15,7 @@ public class calculator {
 
         double result;
 
-        switch (operator){
+        switch(operator){
             case '+':
             result = firstNum + secondNum;
             break;
@@ -34,10 +34,11 @@ public class calculator {
 
             default:
             System.out.println("Invalid operator");
+            scan.close();
             return;
         }
 
         System.out.println(firstNum  + " " + operator + " " + secondNum +" = "+ result);
-
+        scan.close();
     }
 }

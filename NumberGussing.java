@@ -24,6 +24,7 @@ public class NumberGussing {
                 System.out.println("you won");
             }
         }
+        scann.close();
         }
 
     }
