@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Factorial {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
+        System.out.print("Enter a number");
         int fact = Scan.nextInt();
     
         int temp = 1;
